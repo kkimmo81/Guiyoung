@@ -2,17 +2,53 @@
 <html>
 <head>
   <title>guiyoung hwang</title>
+  <style>
+  body {
+    margin:0;
+  }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+      h1 {
+        font-size: 45px;
+        text-align: center;
+        border-bottom:1px solid gray;
+        margin:0;
+        padding:20px;
+      }
+    ul {
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ul{
+      padding-left:33px;
+    }
+    #article{
+      padding-left:25px;
+    }
+  </style>
 </head>
 <body>
-
 <h1><a href="index.html">황귀영 개인전</a></h1>
+<div id="grid">
   <ul>
     <li><a href="1.html">누규?</a></li>
     <li><a href="2.html">머해?</a></li>
     <li><a href="3.html">언제?</a></li>
-    <li><a href="4.html">어디서?</a></li>
-  </ul><br>
+    <li><a href="4.html" style="color:red;text-decoration:underline;">어디서?</a></li>
+  </ul>
+  <div id="article">
   <h2>장소</h2>
-  <p style="margin-top:40px;">윌링앤딜링달링다라리</p>
+  <p style="margin-top:40px;">윌링앤딜링달링다라리
+  </p>
   <img src="장소.png">
+</div>
+</div>
 </body>
